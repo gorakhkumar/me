@@ -55,7 +55,7 @@ span{
         text-transform: capitalize;
     }
     & p{
-        font-size: 18px;
+        font-size: 16px;
     }
     & .card{
     transition: all 0.4s;
@@ -83,16 +83,11 @@ span{
         transition: all 0.9s;
     }
     & .card2 {
-        /* display: block; */
-        top: 0px;
-        position: relative;
-        max-width: 360px;
         background-color: #f2f8f9;
         border-radius: 4px;
         padding: 8px 5px;
         margin: 12px;
         text-decoration: none;
-        z-index: 0;
         overflow: hidden;
         border: 1px solid #f2f8f9;
       
