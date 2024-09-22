@@ -12,7 +12,7 @@
 
 <body>
   <!--  ================   Navbar Section   ================= -->
-  <section class="container-flui banner-section py-2">
+  <section class="banner-section py-2">
     <nav class="navbar navbar-expand-lg sticky-top">
       <div class="container">
         <a class="navbar-brand" href="#">Gorakh . <span>Kumar</span></a>
@@ -28,7 +28,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link">Portfolio</a>
@@ -55,13 +55,13 @@
         <div class="col-md-6 align-content-center">
           <div class="banner-text">
             <h3>Hii, </h3>
-            <h4>I Am <span> Gorakh</span>&nbsp;Kumar</h4>
+            <h2>I Am <span> Gorakh</span>&nbsp;Kumar</h2>
             <h1 class="">Frontend UI <span>Developer</span></h1>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-5">
           <div class="banner-image d-sm-block d-none">
-            <img src="./assets/images/banner.png" class="img-fluid" alt="">
+            <img src="./assets/images/banner.png" class="img-fluid" alt="banner-image">
           </div>
         </div>
       </div>
@@ -69,38 +69,50 @@
   </section>
   <!-- ============   Navbar end ===== -->
 
-  <!-- ============ About me start ============ -->
-  <section>
+  <!-- ============ About section start ============ -->
+  <section class="about-section pt-lg-5" id="about">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-12">
+      <div class="row justify-content-between">
+        <div class="col-lg-5 col-md-6 col-12">
           <div class="about img">
             <img src="/assets/images/about.png" class="img-fluid" alt="">
           </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-12">
+        <div class="col-lg-6 col-md-6 col-12 pt-3 align-items-center">
           <div class="about-content">
-            <h1>About Me</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit culpa, possimus rem est facere
-              assumenda! Accusamus explicabo facilis possimus error vitae quod, repellendus laboriosam obcaecati dolorem
-              ratione officiis velit tempora.</p>
-            <button>Work Experience</button>
+            <div class="pb-5">
+              <h2 class="py-lg-2">about<span>.me</span></h2>
+            <p class="py-lg-4">Ensuring your website looks and functions perfectly across all devices. I specialize in
+              building responsive layouts that adapt to different screen sizes and resolutions, offering an optimal user
+              experience on desktops, tablets, and mobile phones.</p>
+            <p class="bg-warning-subtle position-absolute p-2 rounded-3 fs-5">Work Experience</p>
+            </div>
+            <div class="d-flex gap-4 py-lg-4">
+              <div class="gap-">
+                <h1 class="text-warning">2022</h1>
+              </div>
+              <div class="">
+                <h5>Aptron Technology <span>|</span> Web Developer</h5>
+                <p class="p-lg-1">Developed responsive and interactive web designs, ensuring seamless functionality across all devices..</p>
+              </div>
+            </div>
 
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- ============ About me end ============ -->
+  <!-- ============ About section end ============ -->
 
   <!--  ================   Service Section Start ============== -->
-  <section class="service-section py-5" id="service">
+  <section class="service-section py-4" id="service">
     <div class="container">
       <h2 class="py-2"><span>my</span>.services</h2>
-      <p class="w-50">The services page should outline the range of design services you offer, providing enough detail for potential
+      <p class="w-50">The services page should outline the range of design services you offer, providing enough detail
+        for potential
         clients to understand what you can do for them.</p>
       <div class="row justify-content-center align-items-center">
-        <div class="col-lg-3 col-md-6 col-12 p-0 my-3">
+        <div class="col-lg-3 col-md-6 col-12 p-0">
           <div class="card card2">
             <div class="profile-box">
               <img class="card-img-top rounded" src="./assets/images/1.jpg" alt="Card image cap">
@@ -151,10 +163,10 @@
           </div>
 
         </div>
-        <div class="row py-5">
+        <div class="row ">
           <div class="col-12 d-flex justify-content-center">
             <div class="btn">
-              <button class="">Read More</button>
+              <button class="border">Read More</button>
             </div>
           </div>
         </div>
