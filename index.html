@@ -1,229 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Gorakh kumar Portfolio</title>
+        <link rel="icon" type="image/icon" href="./assets/images/code.png" />
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="/assets/css/responsive.css" />
+    </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gorakh kumar Personal Portfolio</title>
-  <link rel="icon" type="image/icon" href="./assets/images/code.png">
-  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="/assets/css/responsive.css">
-</head>
-
-<body>
-  <!--  ================   Navbar Section   ================= -->
-  <section class="banner-section py-2">
-    <nav class="navbar navbar-expand-lg sticky-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Gorakh . <span>Kumar</span></a>
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <!-- <span class="navbar-toggler-icon"></span> -->
-          <i class="fa-solid fa-bars fa-beat-fade"></i>
-        </button>
-        <div class="collapse navbar-collapse me-auto" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto gap-3 me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#service">service</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link">blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link">contact us</a>
-            </li>
-          </ul>
-          <div class="">
-            <button class="btn btn-outline-warning" type="submit">Hire Me</button>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!--  ===========  navbar end ============ -->
-
-    <div class="container">
-      <div class="row justify-content-around">
-        <div class="col-md-6">
-          <div class="banner-text">
-            <h3>Hii, </h3>
-            <h2>I Am <span> Gorakh</span>&nbsp;Kumar</h2>
-            <h1 class="">Frontend UI <span>Developer</span></h1>
-          </div>
-        </div>
-        <div class="col-md-5">
-          <div class="banner-image d-sm-block d-none">
-            <img src="./assets/images/banner.png" class="img-fluid" alt="banner-image">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- ============   Navbar end ===== -->
-
-  <!-- ============ About section start ============ -->
-  <section class="about-section pt-lg-5" id="about">
-    <div class="container">
-      <div class="row justify-content-between">
-        <div class="col-lg-5 col-md-6 col-12">
-          <div class="about img">
-            <img src="https://gorakhkumar.github.io/me/assets/images/about.png" class="img-fluid" alt="">
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-12 pt-3 align-items-center">
-          <div class="about-content">
-            <div class="pb-5">
-              <h2 class="py-lg-2">about<span>.me</span></h2>
-            <p class="py-lg-4">Ensuring your website looks and functions perfectly across all devices. I specialize in
-              building responsive layouts that adapt to different screen sizes and resolutions, offering an optimal user
-              experience on desktops, tablets, and mobile phones.</p>
-            <p class="bg-warning-subtle position-absolute p-2 rounded-3 fs-5">Work Experience</p>
+    <body>
+        <!--  ================   Navbar Section   ================= -->
+        <section class="banner-section py-2">
+            <nav class="navbar navbar-expand-lg sticky-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Gorakh.</a>
+                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars fa-beat-fade"></i>
+                    </button>
+                    <div class="collapse navbar-collapse me-auto" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto gap-3 me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#service">service</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">contact us</a>
+                            </li>
+                        </ul>
+                        <div class="">
+                            <button class="btn btn-outline-warning" type="submit">Hire Me</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!--  ===========  navbar end ============ -->
+            <!-- =======banner section = ===== -->
+            <div class="container home-page">
+                <div class="row justify-content-around align-items-center">
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="banner-text">
+                            <h3>Hii,</h3>
+                            <h2>I Am <span> Gorakh</span>&nbsp;Kumar</h2>
+                            <h1 class="">Frontend UI <span>Developer</span></h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-12">
+                        <div class="banner-image d-sm-block d-none">
+                            <img src="./assets/images/banner.png" class="img-fluid" alt="banner-image" />
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="d-flex gap-4 py-lg-4">
-              <div class="gap-">
-                <h1 class="text-warning">2022</h1>
-              </div>
-              <div class="">
-                <h5>Aptron Technology <span>|</span> Web Developer</h5>
-                <p class="p-lg-1">Developed responsive and interactive web designs, ensuring seamless functionality across all devices..</p>
-              </div>
+        </section>
+        <!-- ============   Navbar end ===== -->
+
+        <!-- ============ About section start ============ -->
+        <section class="about-section pt-lg-5" id="about">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-5 col-md-6 col-12">
+                        <div class="about img">
+                            <img src="./assets/images/about.png" class="img-fluid" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12 pt-3 align-items-center">
+                        <div class="about-content">
+                            <div class="pb-5">
+                                <h2 class="py-lg-2">about<span>.me</span></h2>
+                                <p class="py-lg-4">
+                                    Ensuring your website looks and functions perfectly across all devices. I specialize in building responsive layouts that adapt to different screen sizes and resolutions, offering an optimal user
+                                    experience on desktops, tablets, and mobile phones.
+                                </p>
+                            </div>
+                            <div class="d-flex gap-4 py-lg-4">
+                                <div class="gap-">
+                                    <h1 class="text-warning">2022</h1>
+                                </div>
+                                <div class="">
+                                    <h5>Aptron Technology <span>|</span> Web Developer</h5>
+                                    <p class="pb-4">Developed responsive and interactive web designs, ensuring seamless functionality across all devices..</p>
+                                    <a href="#" class="btn bg-warning px-5 py-2 fs-5">Hire Me</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- ============ About section end ============ -->
-
-  <!--  ================   Service Section Start ============== -->
-  <section class="service-section py-4" id="service">
-    <div class="container">
-      <h2 class="py-2"><span>my</span>.services</h2>
-      <p class="w0">The services page should outline the range of design services you offer,<br> providing enough detail
-        for potential
-        clients to understand what you can do for them.</p>
-      <div class="row justify-content-center align-items-center">
-        <div class="col-lg-3 col-md-6 col-12 p-0">
-          <div class="card card2">
-            <div class="profile-box">
-              <img class="card-img-top rounded" src="./assets/images/1.jpg" alt="Card image cap">
+        </section>
+        <!-- ============ About section end ============ -->
+        <!-- =========== skills section start ======== -->
+        <section class="skills">
+            <div class="container py-5 text-center">
+                <p>Learn more about to</p>
+                <h2 class="sub-title">My.<span> Skills</span></h2>
+                <div class="row justify-content-around align-items-center">
+                    <div class="col-lg-4 col-md-4 col-12 my-3">
+                        <div class="group py-2 rounded-5 px-5">
+                            <i class="fa-brands fa-html5"></i>
+                            <h3 class="py-3">HTML 5</h3>
+                            <p>HTML5 is the latest version of Hypertext Markup Language, used for structuring and presenting content on the web.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 my-3">
+                        <div class="css group py-2 rounded-5 px-5">
+                            <i class="fa-brands fa-css3"></i>
+                            <h3 class="py-3">CSS 3</h3>
+                            <p>CSS3 is the latest version of Cascading Style Sheets, used to style and layout web pages.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 my-3">
+                        <div class="js group py-2 rounded-5 px-5">
+                            <i class="fa-brands fa-node-js"></i>
+                            <h3 class="py-3">JavaScript</h3>
+                            <p>JavaScript is a high-level programming language used to add interactivity, and dynamic websites.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 my-3">
+                        <div class="bootstrap group py-2 rounded-5 px-5">
+                            <i class="fa-brands fa-bootstrap"></i>
+                            <h3 class="py-3">Bootstrap</h3>
+                            <p>Bootstrap is a popular open-source front-end framework used for designing responsive and mobile-first websites.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 my-3">
+                        <div class="jquery group py-2 rounded-5 px-5">
+                            <i class="fa-solid fa-q"></i>
+                            <h3 class="py-3">JQuery</h3>
+                            <p>
+                                jQuery is a fast, lightweight JavaScript library designed to simplify HTML DOM manipulation, event handling, animations.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 my-3">
+                        <div class="tailwind group py-2 rounded-5 px-5">
+                            <i class="fa-regular fa-file-code"></i>
+                            <h3 class="py-3">Tailwind CSS</h3>
+                            <p>Tailwind CSS is a utility-first CSS framework that provides a collection of pre-built classes to style web elements directly in HTML.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="card-body text-center">
-              <h4 class="card-title">Website Design</h4>
-              <p class="card-text"> Custom website design and development tailored to your brand's needs, ensuring
-                mobile-responsive websites.</p>
+        </section>
+        <!-- =========== skills section end  ======== -->
+
+        <!-- ============ Portfolio section strat ======== -->
+        <section class="portfolio py-4" id="portfolio">
+            <div class="container">
+                <p class="pt-3 text-center mb-0">Recent Project</p>
+                <h2 class="text-center">My<span> Portfolio</span></h2>
+                <div class="row justify-content-around align-items-center">
+                    <div class="col-lg-3 col-md-3 col-12 py-2">
+                        <div class="card shadow-lg p-3 rounded-4">
+                            <img src="./assets/images/p1.png" alt="..." class="rounded-4" />
+                            <div class="card-body">
+                                <h5 class="card-title">Red Store Shopping</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class="card-link">More info</a>
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-12 py-2">
+                        <div class="card shadow-lg p-3 rounded-4">
+                            <img src="./assets/images/p2.png" class="img-fluid h-100 rounded-4" alt="..." />
+                            <div class="card-body pt-3">
+                                <h5 class="card-title">CourseTech</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class="card-link">More info</a>
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-12 py-2">
+                        <div class="card shadow-lg p-3 rounded-4">
+                            <img src="./assets/images/p3.png" class="img-fluid h-100 rounded-4" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title">Landing Page</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class="card-link">More info</a>
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-12 py-2">
+                        <div class="card shadow-lg p-3 rounded-4">
+                            <img src="./assets/images/p3.png" class="img-fluid h-100 rounded-4" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title">Landing Page</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class="card-link">More info</a>
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+        </section>
+        <!-- ============ Portfolio section end ======== -->
 
-        </div>
-        <div class="col-lg-3 col-md-6 col-12 p-0 my-3">
-          <div class="card card2">
-            <div class="profile-box">
-              <img class="card-img-top rounded" src="./assets/images/2.jpg" alt="Card image cap">
+        <!--  ================   Service Section Start ============== -->
+        <section class="service-section py-4" id="service">
+            <div class="container">
+                <h2 class="py-2 text-center"><span>my </span> services<span>.</span></h2>
+                <p class="text-center">
+                    The services page should outline the range of design services you offer,<br />
+                    providing enough detail for potential clients to understand what you can do for them.
+                </p>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-3 col-md-6 col-12 p-0">
+                        <div class="card card2">
+                            <div class="profile-box">
+                                <img class="card-img-top rounded" src="./assets/images/1.jpg" alt="Card image cap" />
+                            </div>
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Website Design</h4>
+                                <p class="card-text">Custom website design and development tailored to your brand's needs, ensuring mobile-responsive websites.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 p-0 my-3">
+                        <div class="card card2">
+                            <div class="profile-box">
+                                <img class="card-img-top rounded" src="./assets/images/2.jpg" alt="Card image cap" />
+                            </div>
+                            <div class="card-body text-center">
+                                <h4 class="card-title">UI/UX Design</h4>
+                                <p class="card-text">Designing intuitive user interfaces and seamless user experiences to increase engagement and conversions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 p-0 my-3">
+                        <div class="card card2">
+                            <div class="profile-box">
+                                <img class="card-img-top rounded" src="./assets/images/3.jpg" alt="Card image cap" />
+                            </div>
+                            <div class="card-body text-center">
+                                <h4 class="card-title">E-Commerce Solution</h4>
+                                <p class="card-text">Custom e-commerce website design and development,with platforms like HTML ,CSS.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 p-0 my-3">
+                        <div class="card card2">
+                            <div class="profile-box">
+                                <img class="card-img-top rounded" src="./assets/images/4.jpg" alt="Card image cap" />
+                            </div>
+                            <div class="card-body text-center">
+                                <h4 class="card-title">HTML And CSS</h4>
+                                <p class="card-text">Custom responsive website design and develop like e-commerce website using html css bootstrap .</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center">
+                            <div class="btn">
+                                <button class="border">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="card-body text-center">
-              <h4 class="card-title">UI/UX Design</h4>
-              <p class="card-text"> Designing intuitive user interfaces and seamless user experiences to increase
-                engagement and conversions.</p>
+        </section>
+        <!-- ============ Service section end  ================ -->
+
+        <!-- ======== Contact Section Start ========== -->
+        <section class="contact py-5" id="contact">
+            <div class="container">
+                <div class="row justify-content-around align-items-center">
+                    <div class="col-md-5">
+                        <div>
+                            <h2>Let's <span>chat</span>.</h2>
+                            <h1 class="h1">Tell me about your project.</h1>
+                            <p>Let's create something togather <i class="fa-regular fa-thumbs-up text-warning"></i></p>
+                            <div class="d-flex gap-3 pt-3">
+                                <i class="fa-regular fa-envelope fs-3"></i>
+                                <div class="">
+                                    <p>
+                                        Mail me at <br />
+                                        <a href="" class="text-white">gorakhkumar.dev@gmail.com</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 py-5">
+                        <h1>Send us a message <i class="fa-regular fa-paper-plane fs-3 text-danger"></i></h1>
+                        <form class="py-5">
+                            <div class="mb-4">
+                                <input type="text" class="form-control py-2 bg-transparent text-white" placeholder="Full Name" required />
+                            </div>
+                            <div class="mb-4">
+                                <input type="text" class="form-control py-2 bg-transparent text-white" placeholder="Enter Your Email" required />
+                            </div>
+                            <div class="mb-4">
+                                <input type="text" class="form-control py-2 bg-transparent text-white" placeholder="Subject" />
+                                <p class="p-1">Tell me more about your project</p>
+                            </div>
+                            <button class="m-4">Send Message</button>
+                        </form>
+                    </div>
+                </div>
             </div>
-          </div>
+        </section>
+        <!-- ======== Contact Section end ========== -->
 
-        </div>
-        <div class="col-lg-3 col-md-6 col-12 p-0 my-3">
-          <div class="card card2">
-            <div class="profile-box">
-              <img class="card-img-top rounded" src="./assets/images/3.jpg" alt="Card image cap">
-            </div>
-            <div class="card-body text-center">
-              <h4 class="card-title">E-Commerce Solution</h4>
-              <p class="card-text">Custom e-commerce website design and development,with platforms like HTML ,CSS.</p>
-            </div>
-          </div>
+        <!-- ============ Footer start  ==================== -->
 
-        </div>
-        <div class="col-lg-3 col-md-6 col-12 p-0 my-3">
-          <div class="card card2">
-            <div class="profile-box">
-              <img class="card-img-top rounded" src="./assets/images/4.jpg" alt="Card image cap">
-            </div>
-            <div class="card-body text-center">
-              <h4 class="card-title">HTML And CSS</h4>
-              <p class="card-text">Custom responsive website design and develop like e-commerce website using html css
-                bootstrap .</p>
-            </div>
-          </div>
+        <footer class="text-center text-lg-start text-white">
+            <section class="d-flex justify-content-between p-4">
+                <div class="me-">
+                    <span class="text-white">Get connected with us on social networks:</span>
+                </div>
+                <div class="text-center">
+                    © 2020 Copyright:
+                    <a class="text-white" href="#">2024</a>
+                </div>
+                <div class="">
+                    <a href="" class="text-white fs-4 me-3">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+                    <a href="" class="text-white fs-4 me-3">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="" class="text-white fs-4 me-3">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </section>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
 
-        </div>
-        <div class="row ">
-          <div class="col-12 d-flex justify-content-center">
-            <div class="btn">
-              <button class="border">Read More</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- ============ Service section end  ================ -->
-
-  <!-- ======== Contact Section Start ========== -->
-   <section class="contact py-5">
-    <div class="container shadow rounded-4">
-      <div class="row justify-content-around align-items-center">
-        <div class="col-md-5">
-          <div>
-            <h2>Let's <span>chat</span>.</h2>
-            <h1 class="h1">Tell me about your project.</h1>
-            <p>Let's create something togather <i class="fa-regular fa-thumbs-up text-warning"></i></p>
-            <div class="d-flex gap-3  pt-3">
-              <i class="fa-regular fa-envelope fs-3"></i>
-                 <div class="">
-                 <p>Mail me at <br><a href="">gorakhkumar.dev@gmail.com</a> </p>
-                 </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-5 py-5">
-          <h1>Send us a message <i class="fa-regular fa-paper-plane fs-3 text-danger"></i></h1>
-          <form class="py-lg-5">
-            <div class="mb-4">
-              <input type="text" class="form-control" placeholder="Full Name" required>
-            </div>
-            <div class="mb-4">
-              <input type="text" class="form-control" placeholder="Enter Your Email" required>
-            </div>
-            <div class="mb-4">
-              <input type="text" class="form-control" placeholder="Subject">
-              <p class="p-1">Tell me more about your project</p>
-            </div>
-            <button class="m-4">Send Message</button>
-          </form>
-        </div>
-      </div>
-    </div>
-   </section>
-   <!-- ======== Contact Section end ========== -->
+        <!-- ============ Footer ends  ==================== -->
 
 
-
-
-
-
-
-
-  <script src="./assets/js/bootstrap.bundle.min.js"></script>
-  <script src="https://kit.fontawesome.com/fbdf7c0e40.js" crossorigin="anonymous"></script>
-</body>
-
+        <!-- javascript -->
+        <script src="https://kit.fontawesome.com/fbdf7c0e40.js" crossorigin="anonymous"></script>
+        <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    </body>
 </html>
