@@ -145,6 +145,13 @@ button:hover {
 }
 
 /* contact css */
+.contact form input::placeholder{
+    color: #ffffff;
+    opacity: 1;
+}
+.contact form textarea::placeholder{
+    color: #ffffff;
+}
 .contact {
     background-color: #252F2D;
     color: white;
